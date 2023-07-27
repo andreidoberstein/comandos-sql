@@ -1,7 +1,7 @@
-** Principais comandos SQL
+**Principais comandos SQL
 Criar base de dados
 ```
-CREATE DATABASE PETSHOP_MYPET;
+CREATE DATABASE PETSHOP;
 ```
 
 Selecionar a base
@@ -35,6 +35,9 @@ Inserir dados na tabela
 ```
 INSERT INTO ANIMALS(DS_NAME, NM_AGE, FL_SEX) VALUES('doguinho',4,'F');
 INSERT INTO ANIMALS(DS_NAME, NM_AGE, FL_SEX) VALUES('doguinho caramelo',7,'M');
+INSERT INTO ANIMALS(DS_NAME, NM_AGE, FL_SEX, DT_CREATED) 
+VALUES('Pingado',2,'M', '2023-07-26 20:00:05'),
+('Pingadolado',3,'M', '2023-07-26');
 ```
 
 Visualizar colunas com alias
